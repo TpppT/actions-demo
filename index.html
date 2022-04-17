@@ -1,14 +1,5 @@
 ---
-layout: default
-title: Xiaoxiong Wang Blog
+layout: home
+# articles:
+#   excerpt_type: html
 ---
-
-<h2>{{ page.title }}</h2>
-
-<p>FH Wedel 2022 Sommersemester Informatik</p>
-
-<ul>
-    {% for post in site.posts %}
-      <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
